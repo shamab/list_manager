@@ -6,7 +6,7 @@
 class unique_list:public List, public ListItem
 {
 	public:
-	void push(double);
+	void push(std::string);
 
 };
 

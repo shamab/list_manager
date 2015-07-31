@@ -4,7 +4,7 @@
 #include "list.hpp"
 
 
-void unique_list::push(double v)
+void unique_list::push(std::string v)
 {
 			if(first->get_next()==NULL)
 		{	

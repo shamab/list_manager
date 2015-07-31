@@ -3,12 +3,12 @@
 
     ListItem::ListItem()
 	{
-		value = 0;
+		value = "";
 		next = NULL;
 		previous = NULL;
 	}
 	
-	void ListItem::set_value(double v)
+	void ListItem::set_value(std::string v)
 	{
 		value = v;
 	}
@@ -29,7 +29,7 @@
 		return next;
 	}
 
-	double ListItem::get_value()
+	std::string ListItem::get_value()
 	{
 		return value;
 	}

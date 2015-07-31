@@ -8,13 +8,13 @@ class ListItem
 	private:
 	ListItem* next;
 	ListItem* previous;
-	double value;
+	std::string value;
 	
 	public:
 	
 	ListItem();
 	
-	void set_value(double v);
+	void set_value(std::string v);
 	
 	void set_next(ListItem* next);
 	
@@ -26,7 +26,7 @@ class ListItem
 	
 	bool has_next();
 	
-	double get_value();
+	std::string get_value();
 	
 };
 
